@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Brandlands - Gaming Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .character-table, .blog-posts {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .character-table th, .character-table td, .blog-posts th, .blog-posts td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .character-table th, .blog-posts th {
+            background-color: #f2f2f2;
+        }
+        .character-table tr:hover, .blog-posts tr:hover {
+            background-color: #f1f1f1;
+        }
+        .blog-posts {
+            margin-top: 20px;
+        }
+        .blog-posts article {
+            margin-bottom: 20px;
+        }
+        .blog-posts h2 {
+            margin: 0;
+        }
+        .blog-posts p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Brandlands - Gaming Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#characters">Charaktere</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="characters">
+            <h2>Charaktere von The Brandlands</h2>
+            <table class="character-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Marke</th>
+                        <th>Firmenphilosophie / Öffentliche Wahrnehmung</th>
+                        <th>Fähigkeiten</th>
+                        <th>Kategorie</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Oleg Go</td>
+                        <td>Google</td>
+                        <td>Innovation, Wissensdurst, Neugier</td>
+                        <td>Er ist ein Problemlöser, der gerne kreative Lösungen entwickelt und stets danach strebt, neue Maßstäbe zu setzen.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>Ozmaan</td>
+                        <td>Amazon</td>
+                        <td>Effizienz und Taktik</td>
+                        <td>Er ist ein innovativer Denker, der kontinuierlich daran arbeitet, das Kundenerlebnis zu verbessern und neue Maßstäbe zu setzen. Ein Teamplayer, der gut darin ist, Teams zu leiten und gemeinsame Ziele zu erreichen.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>Cool CaCa</td>
+                        <td>Coca-Cola</td>
+                        <td>Fröhlich und energiegeladen</td>
+                        <td>Er verkörpert Werte wie Gemeinschaft, Optimismus und Erfrischung. Er bringt Menschen zusammen und verbreitet gute Stimmung.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>Seppi</td>
+                        <td>Pepsi</td>
+                        <td>Dynamisch und kreativ</td>
+                        <td>Er verkörpert Werte wie Leidenschaft, Kreativität und Jugendlichkeit. Er ist ein Trendsetter und inspiriert andere, ihre Träume zu verwirklichen.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>Ginger Burk</td>
+                        <td>Burger King</td>
+                        <td>Selbstbewusst und rebellisch</td>
+                        <td>Sie verkörpert Werte wie Individualität, Qualität und Geschmackserlebnis. Sie inspiriert dazu, den eigenen Weg zu gehen und Konventionen zu hinterfragen.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>Don Mc Sald</td>
+                        <td>McDonald's</td>
+                        <td>Fröhlich und kinderlieb</td>
+                        <td>Er verkörpert Werte wie Freude, Gemeinschaft und Qualität. Er sorgt für Familienspaß und unbeschwerte Momente.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>Guss Man</td>
+                        <td>Samsung</td>
+                        <td>Vielseitig und technikaffin</td>
+                        <td>Er verkörpert Werte wie Vielfalt, Innovation und Zuverlässigkeit. Er ist Experte in verschiedenen Bereichen und ein Teamplayer.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>LeApp</td>
+                        <td>Apple</td>
+                        <td>Visionär und technikbegeistert</td>
+                        <td>Sie verkörpert Werte wie Innovation, Design und Benutzerfreundlichkeit. Sie strebt danach, das Leben durch technologische Fortschritte zu verbessern.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>Sad Adi</td>
+                        <td>Adidas</td>
+                        <td>Innovation und Leistung</td>
+                        <td>Er verkörpert Werte wie Innovation, stetige Verbesserung und sportliche Exzellenz. Getrieben von einer Leidenschaft für Sport und Technologie, inspiriert er andere, ihre Grenzen zu überschreiten und nach Höchstleistungen zu streben.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                    <tr>
+                        <td>Ekin</td>
+                        <td>Nike</td>
+                        <td>Motivation und Spitzenleistung</td>
+                        <td>Er verkörpert Werte wie Entschlossenheit, Durchhaltevermögen und Inspiration. Er ermutigt andere, ihre Ziele zu verfolgen und gibt niemals auf.</td>
+                        <td>Legendär: Big Brands (Globale Konzerne mit enormem Einfluss)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-posts">
+                <article>
+                    <h2>Der Aufstieg von Oleg Go: Googles Problemlöser</h2>
+                    <p>Oleg Go ist mehr als nur ein Charakter. Als Symbol für Innovation und Wissensdurst verkörpert er Googles Philosophie der ständigen Verbesserung. Sein Ansatz, Probleme kreativ zu lösen, macht ihn zu einem unverzichtbaren Teil des The Brandlands Universums.</p>
+                </article>
+                <article>
+                    <h2>Ozmaan und die Kunst der Effizienz bei Amazon</h2>
+                    <p>Ozmaan steht für die Effizienz und taktischen Fähigkeiten von Amazon. In The Brandlands zeigt er, wie kontinuierliche Verbesserung und Teamarbeit den Unterschied ausmachen können. Ein Blogpost, der beleuchtet, wie sein Charakter die Spielmechanik beeinflusst.</p>
+                </article>
+                <article>
+                    <h2>Cool CaCa: Coca-Cola’s fröhlicher Botschafter</h2>
+                    <p>Cool CaCa bringt fröhliche Energie in The Brandlands. Als Vertreter von Coca-Cola bringt er Werte wie Gemeinschaft und Optimismus ins Spiel, was ihn zu einem beliebten Charakter bei den Fans macht.</p>
+                </article>
+                <article>
+                    <h2>Seppi und die dynamische Welt von Pepsi</h2>
+                    <p>Seppi verkörpert die dynamische und kreative Energie von Pepsi. Sein Einfluss in The Brandlands zeigt, wie Kreativität und Leidenschaft zu bemerkenswerten Spielerfahr
